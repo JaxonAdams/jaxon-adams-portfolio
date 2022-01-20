@@ -1,0 +1,36 @@
+/* variables defined */
+:root {
+    --primary-color: #116466;
+    --secondary-color: #2C3531;
+    --tertiary-color: #D9B08C;
+    --quaternary-color: #FFCB9A;
+}
+
+/* general styling */
+body {
+    color: var(--tertiary-color);
+    font: Verdana, Helvetica, Sans-serif;
+}
+
+/* header style */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    padding: 20px 35px;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--tertiary-color);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+}
+
+header nav {
+    margin: 7px 0;
+}
