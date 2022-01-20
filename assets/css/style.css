@@ -213,3 +213,34 @@ footer h2 {
     bottom: 100px;
     left: 150px;
 }
+
+/* contact me section */
+.contact-info {
+    background-color: var(--quaternary-color);
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contact-info h3 {
+    color: var(--secondary-color);
+    margin: 0;
+    font-size: 28px;
+    border-bottom: 3px solid var(--secondary-color);
+    text-align: center;
+    padding: 0 30px;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.contact-info ul li {
+    color: var(--secondary-color);
+}
+
+.contact-info ul li a {
+    color: var(--secondary-color);
+}
