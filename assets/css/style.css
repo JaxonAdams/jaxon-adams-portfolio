@@ -10,11 +10,13 @@
 body {
     color: var(--tertiary-color);
     font: Verdana, Helvetica, Sans-serif;
+    margin: 0;
 }
 
 /* header style */
 header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     background-color: var(--primary-color);
     padding: 20px 35px;
@@ -22,8 +24,9 @@ header {
 
 header h1 {
     font-weight: bold;
-    font-size: 36px;
+    font-size: 42px;
     color: var(--tertiary-color);
+    margin: 0;
 }
 
 header a {
@@ -33,4 +36,32 @@ header a {
 
 header nav {
     margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
+/* footer style */
+footer {
+    background-color: var(--secondary-color);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer h2 {
+    font-size: 30px;
+    margin: 0;
 }
