@@ -47,7 +47,7 @@ header nav ul {
 }
 
 header nav ul li a {
-    padding: 10px 15px;
+    padding: 10px 25px;
     font-weight: lighter;
     font-size: 1.55vw;
 }
@@ -64,4 +64,40 @@ footer {
 footer h2 {
     font-size: 30px;
     margin: 0;
+}
+
+/* hero style */
+.hero {
+    background-image: url("../images/hero-background3.jpg");
+    background-size: cover;
+    background-position: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15px 20px;
+}
+
+.hero-img {
+    border: 5px solid var(--primary-color);
+    border-radius: 2%;
+    margin: 0 72px;
+}
+
+.hero-name {
+    font-weight: bold;
+    font-size: 56px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    text-align: center;
+    align-items: flex-start;
+    padding: 30px 15px;
+    margin: 22px;
+    background-color: rgba(17, 100, 102, .8);
+    border-radius: 15px;
+}
+
+.hero-name h3 {
+    font-size: 42px;
+    font-style: italic;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
