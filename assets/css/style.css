@@ -76,6 +76,7 @@ footer h2 {
     justify-content: center;
     align-items: flex-start;
     padding: 15px 20px;
+    margin: 0;
 }
 
 .hero-img {
@@ -100,4 +101,30 @@ footer h2 {
     font-size: 42px;
     font-style: italic;
     text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+/* about me section */
+.bio {
+    background-color: var(--quaternary-color);
+    margin: 0;
+}
+
+.bio p {
+    color: var(--primary-color);
+    line-height: 1.7;
+    width: 70%;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 10px 0 20px 0;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 48px;
+    color: var(--primary-color);
+    border-bottom: 3px solid;
+    padding: 20px 0;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto 35px auto;
 }
