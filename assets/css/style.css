@@ -323,10 +323,15 @@ footer h2 {
 
 /*media query for tablets and smaller */
 @media screen and (max-width: 768px) {
-
+    .section {
+        padding: 30px 15px;
+    }
 }
 
 /*media query for mobile phones and smaller */
 @media screen and (max-width: 575px) {
 
 }
+
+/* additional media query code doesn't seem necessary for now. */
+/* I will leave the queries open for future changes. */
