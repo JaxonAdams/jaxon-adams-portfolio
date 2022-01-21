@@ -157,19 +157,19 @@ footer h2 {
     text-decoration: none;
 }
 
-.large-site div h3, .site-row div h3 {
+.large-site div h3 {
     font-size: 36px;
     border-bottom: 3px solid var(--secondary-color);
     padding-bottom: 10px;
 }
 
-.large-site div h4, .site-row div h4 {
+.large-site div h4 {
     font-size: 28px;
     font-style: italic;
     padding-bottom: 15px;
 }
 
-.large-site div h3, h4, .site-row div h3, h4 {
+.large-site div h3, h4 {
     color: var(--secondary-color);
     text-align: center;
     text-decoration: none;
@@ -179,40 +179,38 @@ footer h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    flex: 1;
+    flex-direction: row;
 }
 
-.site-row img{
+.site-row .site-img{
     max-width: 100%;
     height: auto;
+    flex: 0 0 20em;
 }
 
 .site-row div {
+    order: -1;
     background-color: var(--quaternary-color);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     border-radius: 10px;
-    width: 20%;
+    margin: 10px 0;
 }
 
-.small-title a h3, .small-title a h4 {
+.h1, .h2 {
+    color: var(--secondary-color);
+    font-size: 28px;
+    text-align: center;
+}
+
+.h2 {
     font-size: 22px;
-    padding: 5px;
 }
 
-.title-one {
-    position: relative;
-    bottom: 100px;
-    right: 150px;
-}
 
-.title-two {
-    position: relative;
-    bottom: 100px;
-}
-
-.title-three {
-    position: relative;
-    bottom: 100px;
-    left: 150px;
-}
 
 /* contact me section */
 .contact-info {
@@ -277,6 +275,15 @@ footer h2 {
         width: 100%;
     }
 
+    .hero-img {
+        margin: 0 450px;
+    }
+
+    .large-site div {
+        position: relative;
+        bottom: 320px;
+    }
+
     .section-title {
         width: 80%;
     }
@@ -292,7 +299,6 @@ footer h2 {
     }
 
     .site-row div {
-        display: block;
         position: relative;
     }
 
